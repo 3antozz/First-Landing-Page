@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,4 +29,52 @@ a {
     font-size: 24px;
     color: #F9Faf8;
     font-weight: bold;
+}
+.hero {
+    max-height: max-content;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.hero-title {
+    color: #F9Faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px; 
+}
+.placeholder-text {
+    background: rgba(220, 220, 220, 0.3)  ;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+    flex: 1;
+}
+
+.signup {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:  #3882f6 ;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 auto;
+}
+.right-items {
+    display: flex;
+    flex-shrink: 0;
 }
