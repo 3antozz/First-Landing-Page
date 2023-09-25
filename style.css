@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: -Helvetica;
+    font-weight: 1 999;
 }
 ul {
     display: flex;
@@ -78,6 +81,7 @@ a {
     flex: 1 1 auto;
     max-width: 400px;
 }
+
 .right-items {
     flex: 1 0 auto;
 }
@@ -110,4 +114,69 @@ a {
     gap: 20px;
     justify-content: flex-start;
     text-align: center;
+}
+.quote-section {
+    margin-top: 90px;
+    padding-left: 30%;
+    padding-right: 30%;
+    background: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.thor {
+    text-align: right;
+    font-weight: bold;
+}
+.action {
+    display: flex;
+    background: #3882f6;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 80px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    border-radius: 10px ;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 90px;
+
+}
+.its-time {
+    font-weight: bold;
+
+}
+.signdown {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.its-time, .click {
+    margin-left: 10%;
+
+}
+
+.footer {
+    background: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 25px;
 }
